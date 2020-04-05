@@ -50,3 +50,26 @@ await karma.getSales({ latitude, longitude }, radius = 5000);
 await karma.getItems({ latitude, longitude }, radius = 5000);
 ```
 
+### Get nearby sale items properties
+
+```javascript
+await karma.getSaleItemsProperties({ latitude, longitude }, radius = 5000);
+```
+
+### Get items by location
+
+```javascript
+await karma.getItemsByLocation(locationId);
+```
+
+### Get sales by location
+
+```javascript
+await karma.getSalesByLocation(locationId);
+```
+
+### Get sale items properties by location
+
+```javascript
+await karma.getSaleItemsPropertiesByLocation(locationId);
+```
