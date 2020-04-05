@@ -1,0 +1,16 @@
+{
+  "name": "node-karma",
+  "version": "1.0.0",
+  "description": "An API wrapper for the anti-waste app Karma",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jeremie Zarca",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "faker": "^4.1.0",
+    "qs": "^6.9.3"
+  }
+}
